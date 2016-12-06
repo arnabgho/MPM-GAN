@@ -44,7 +44,7 @@
 </ul>
 
 <h2>
-<a id="interesting-differences-in-generations-by-the-2-generators" class="anchor" href="#interesting-differences-in-generations-by-the-2-generators" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Interesting Differences in Generations by the 2 Generators</h2>
+<a id="interesting-differences-in-generations-by-the-2-generators" class="anchor" href="#interesting-differences-in-generations-by-the-2-generators" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Interesting Differences in Generations by the two Generators</h2>
 
 <p style="text-align:center;"><img src="https://raw.githubusercontent.com/arnabgho/MPM-GAN/master/images/G1_DifferentNoiseMessageConditioned.png" width="700px" height="75px"></p>
 
@@ -70,7 +70,7 @@
 
 <ul>
 <li><p>A common Message Generator looks at the input to the generators and their respective outputs and generates a message to be passed to the other generator.</p></li>
-<li><p>Each Generator generates images conditioned on (noise, message received from the analysis of the other generator).</p></li>
+<li><p>Each Generator generates images conditioned on noise and message received from the analysis of the other generator.</p></li>
 </ul>
 
 <h2>
@@ -144,9 +144,10 @@
 </tbody>
 </table>
 
+
 <ul>
 <li><p>As shown in the Table all of the models’ discriminator representation improved the results over the discriminator representation of DCGAN Radford et al. (2015) thus showing that the proposed models provide regularization to the training procedure of the discriminator. </p></li>
-<li><p>The non-trivial accuracy obtained by the message representation which never got to see the real images is an interesting phenomena while the improvement of the accuracy with the Message along- side the Discriminator features shows that the Message representation learns some complementary features which helps in the overall classification task.</p></li>
+<li><p>The non-trivial accuracy obtained by the message representation which never got to see the real images is an interesting phenomena while the improvement of the accuracy with the represenation consisting of Message along-side the Discriminator features shows that the Message representation learns some complementary features which helps in the overall classification task.</p></li>
 </ul>
 
 <h2>
